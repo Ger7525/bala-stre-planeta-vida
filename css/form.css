@@ -33,7 +33,7 @@ input:focus, textarea:focus { outline: 2px solid var(--red); outline-offset: 1px
 ::placeholder { color: var(--red); opacity: .65; }
 
 /* Campo dentro de uma frase */
-.inline-field { display: inline-block; width: auto; padding: 1px 6px; text-align: center; font-size: inherit; }
+.inline-field { display: inline-block; width: auto; max-width: 100%; padding: 1px 6px; text-align: center; font-size: inherit; }
 
 .actions { margin-top: 34px; text-align: center; font-family: system-ui, sans-serif; }
 .actions button {

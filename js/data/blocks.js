@@ -7,7 +7,7 @@
      { k: "sign" }                           linhas de assinatura                              */
 window.Balaustre = window.Balaustre || {};
 Balaustre.blocks = [
- {k:"p",s:["Às ",{id:"hora",d:"09:30",w:6}," horas do dia ",{id:"dia",d:"21",w:3}," do Mês de ",{id:"mes",d:"Fevereiro",w:10}," e ano ",{id:"ano",d:"2026",w:5}," da E.V. e ",{id:"vl",d:"6026",w:5}," da V.L. reuniram-se os OObr∴ da A∴R∴L∴S∴ PLANETA VIDA Nº 59, no Oriente de Recife-PE, no Templo sito à rua da Penha nº45, em sessão Magna grau de companheiro Maçom presentes os IIr∴ que assinaram o Livro de Presença. Os cargos foram ocupados pelos titulares."]},
+ {k:"p",s:["Às ",{id:"hora",d:"09:30",w:6}," horas do dia ",{id:"dia",d:"21",w:3}," do Mês de ",{id:"mes",d:"Fevereiro",w:10}," e ano ",{id:"ano",d:"2026",w:5}," da E.V. e ",{id:"vl",d:"6026",w:5}," da V.L. reuniram-se os OObr∴ da A∴R∴L∴S∴ PLANETA VIDA Nº 59, no Oriente de Recife-PE, no Templo sito à rua da Penha nº45, em sessão ",{id:"grau",d:"Magna grau de companheiro Maçom",w:30}," presentes os IIr∴ que assinaram o Livro de Presença. Os cargos foram ocupados pelos titulares."]},
  {k:"roles"},
  {k:"f",id:"visit",rows:2,ph:"Visitantes e autoridades presentes (ex.: também tivemos o irmão …)"},
  {k:"h",s:"EXPEDIENTE"},{k:"f",id:"exp",rows:3,ph:"Digite o expediente"},
