@@ -1,0 +1,49 @@
+/* Formulário: campos em vermelho, legenda e botão */
+.legend {
+  font: 13px system-ui, sans-serif;
+  color: var(--mute);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 0 0 18px;
+}
+.legend i {
+  width: 14px; height: 14px; flex: none;
+  border: 1.5px solid var(--red-border);
+  background: var(--red-bg);
+  border-radius: 3px;
+}
+
+.roles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px 14px; margin: 12px 0; }
+.role label { display: block; font-weight: 700; font-size: 14px; margin-bottom: 2px; }
+
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--red-bg);
+  border: 1.5px solid var(--red-border);
+  border-radius: 4px;
+  padding: 7px 10px;
+}
+textarea { resize: vertical; display: block; margin: 4px 0 6px; overflow: hidden; }
+input:focus, textarea:focus { outline: 2px solid var(--red); outline-offset: 1px; }
+::placeholder { color: var(--red); opacity: .65; }
+
+/* Campo dentro de uma frase */
+.inline-field { display: inline-block; width: auto; padding: 1px 6px; text-align: center; font-size: inherit; }
+
+.actions { margin-top: 34px; text-align: center; font-family: system-ui, sans-serif; }
+.actions button {
+  font: 600 16px system-ui, sans-serif;
+  background: var(--btn);
+  color: var(--btn-ink);
+  border: 0;
+  border-radius: 8px;
+  padding: 13px 28px;
+  cursor: pointer;
+}
+.actions button:disabled { opacity: .6; cursor: wait; }
+.status { display: block; margin-top: 10px; font-size: 13px; color: var(--mute); min-height: 18px; }

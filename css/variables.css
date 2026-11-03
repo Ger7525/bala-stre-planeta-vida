@@ -1,0 +1,23 @@
+/* Paleta do projeto (tema claro)
+   Branco Neve  #FFFFFF  folha / fundo principal
+   Cinza Gelo   #F4F5F7  fundo da página / áreas secundárias
+   Cinza Prata  #E2E4E9  bordas e linhas
+   Preto Grafite #1E2022 textos e títulos
+   Vermelho Carmim #E63946 destaque, campos a preencher e botão */
+:root {
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  color-scheme: light;
+
+  --bg: #F4F5F7;
+  --paper: #FFFFFF;
+  --ink: #1E2022;
+  --mute: #6B6F75;
+  --line: #E2E4E9;
+  --red: #E63946;
+  --red-bg: rgba(230, 57, 70, 0.06);
+  --red-border: rgba(230, 57, 70, 0.45);
+  --btn: #E63946;
+  --btn-ink: #FFFFFF;
+}

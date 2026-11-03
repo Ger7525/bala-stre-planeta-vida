@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="color-scheme" content="light">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Balaústre – Magna Sessão de Companheiro 2026</title>
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+  <main class="paper">
+    
+
+    <div id="doc"></div>
+
+    <div class="actions">
+      <button id="btn-pdf" type="button">Gerar PDF</button>
+      <span id="status" class="status" role="status"></span>
+    </div>
+  </main>
+
+  <noscript>Esta página precisa de JavaScript para funcionar.</noscript>
+
+  <!-- Biblioteca de PDF (requer internet) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- Dados e configuração -->
+  <script src="js/data/logos.js"></script>
+  <script src="js/data/roles.js"></script>
+  <script src="js/data/blocks.js"></script>
+  <script src="js/config.js"></script>
+
+  <!-- Módulos (a ordem importa) -->
+  <script src="js/modules/utils.js"></script>
+  <script src="js/modules/components.js"></script>
+  <script src="js/modules/form.js"></script>
+  <script src="js/modules/pdf.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
